@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    id="io.cordova.hellocordova"
+    version="1.0.0">
+    <name>Pine City Zoo</name>
+    <description>This app is a Pine City Zoo guide that will provide you with the map and all you need to know about the animals in the zoo.</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+
+    <content src="index.html" />
+
+    <!-- Security Related Settings -->
+    <access origin="https://cordova.apache.org" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- Platform Configs & Platform Overriding Configs -->
+    <platform name="android"></platform>
+    <platform name="ios"></platform>
+</widget>
